@@ -11,5 +11,9 @@
   "license": "ISC",
   "dependencies": {
     "socket.io": "^0.9.17"
+  },
+  "engines": {
+    "node": "6.4.0",
+    "npm": "3.10.3"
   }
 }
