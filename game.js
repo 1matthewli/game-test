@@ -8,7 +8,7 @@ var socket,
 
 function init() {
     players = [];
-    socket = io.listen(8000);
+    socket = io.listen(process.env.PORT || 8000);
 
     socket.configure(function() {
 	    socket.set("transports", ["websocket"]);
